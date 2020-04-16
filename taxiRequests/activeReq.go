@@ -5,10 +5,16 @@ import (
 	strRand "taxiRequests/pkg/rand"
 )
 
+//
+// ActiveReq contains active requests
+//
 type ActiveReq struct {
 	Requests [50]*Request
 }
 
+//
+// InitActReq initializing active requests
+//
 func InitActReq() *ActiveReq {
 	actReq := ActiveReq{}
 
@@ -22,6 +28,9 @@ func InitActReq() *ActiveReq {
 	return &actReq
 }
 
+//
+// GetRandom returns a random active request
+//
 func (ar *ActiveReq) GetRandom() string {
 	r := rand.Int63n(50)
 

@@ -2,18 +2,17 @@ package server
 
 import (
 	"net/http"
-	"taxiRequests/taxiRequests"
 	"time"
 
-	"github.com/caarlos0/env"
+	"taxiRequests/taxiRequests"
+
 	"github.com/gorilla/mux"
 	"github.com/rs/zerolog/log"
 )
 
-type Config struct {
-	HttpPort string `env:"HTTP_PORT,required"`
-}
-
+//
+// Server is a basic application struct
+//
 type Server struct {
 	DB     *taxiRequests.DB
 	Router *mux.Router
@@ -21,16 +20,8 @@ type Server struct {
 }
 
 //
-// ConfigFromEnv func - reads env by struct's fields 'env' annotation
+// New retu
 //
-func ConfigFromEnv() (*Config, error) {
-	c := &Config{}
-	if err := env.Parse(c); err != nil {
-		return nil, err
-	}
-	return c, nil
-}
-
 func New(db *taxiRequests.DB) (*Server, error) {
 
 	config, err := ConfigFromEnv()
@@ -50,16 +41,6 @@ func (s *Server) ConfigureRouter() {
 	//routes
 	s.Router.HandleFunc("/request", s.requestGet).Methods(http.MethodGet)
 	s.Router.HandleFunc("/admin/requests", s.adminRequestGet).Methods(http.MethodGet)
-
-	//middlewares
-	s.Router.Use(s.loggingMiddleware)
-}
-
-func (s *Server) loggingMiddleware(next http.Handler) http.Handler {
-	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		log.Info().Msg(r.RequestURI)
-		next.ServeHTTP(w, r)
-	})
 }
 
 func (s *Server) ListenAndServe() error {

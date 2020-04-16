@@ -5,11 +5,17 @@ import (
 	strRand "taxiRequests/pkg/rand"
 )
 
+//
+// DB contains all data requests
+//
 type DB struct {
 	*ActiveReq
 	*InactiveReq
 }
 
+//
+// InitDB is a function to initialization taxi database
+//
 func InitDB() *DB {
 	return &DB{
 		ActiveReq:   InitActReq(),
@@ -17,6 +23,9 @@ func InitDB() *DB {
 	}
 }
 
+//
+// Roll make disabled random active request and creating a new one
+//
 func (db *DB) Roll() {
 	r := rand.Intn(50)
 
