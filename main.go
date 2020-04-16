@@ -3,15 +3,15 @@ package main
 import (
 	"github.com/rs/zerolog/log"
 	"taxiRequests/internal/server"
-	"taxiRequests/taxiRequests"
+	"taxiRequests/taxi_requests"
 	"time"
 )
 
 func main() {
 
-	db := taxiRequests.InitDB()
+	db := taxi_requests.InitDB()
 
-	go func(db *taxiRequests.DB) {
+	go func(db *taxi_requests.DB) {
 		for {
 			time.Sleep(200 * time.Millisecond)
 			db.Roll()

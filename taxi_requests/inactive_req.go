@@ -1,4 +1,4 @@
-package taxiRequests
+package taxi_requests
 
 //
 // InactiveReq contains inactive requests

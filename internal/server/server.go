@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"taxiRequests/taxiRequests"
+	"taxiRequests/taxi_requests"
 
 	"github.com/gorilla/mux"
 	"github.com/rs/zerolog/log"
@@ -14,7 +14,7 @@ import (
 // Server is a basic application struct
 //
 type Server struct {
-	DB     *taxiRequests.DB
+	DB     *taxi_requests.DB
 	Router *mux.Router
 	Config *Config
 }
@@ -22,7 +22,7 @@ type Server struct {
 //
 // New retu
 //
-func New(db *taxiRequests.DB) (*Server, error) {
+func New(db *taxi_requests.DB) (*Server, error) {
 
 	config, err := ConfigFromEnv()
 	if err != nil {

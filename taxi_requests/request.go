@@ -1,4 +1,4 @@
-package taxiRequests
+package taxi_requests
 
 //
 // Request is a basic request data struct

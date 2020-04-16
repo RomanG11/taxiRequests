@@ -3,12 +3,12 @@ package server
 import (
 	"encoding/json"
 	"net/http"
-	"taxiRequests/taxiRequests"
+	"taxiRequests/taxi_requests"
 )
 
 type GetAdminRequestResponse struct {
-	ActiveRequests   [50]*taxiRequests.Request `json:"active_requests"`
-	InactiveRequests []*taxiRequests.Request   `json:"inactive_requests"`
+	ActiveRequests   [50]*taxi_requests.Request `json:"active_requests"`
+	InactiveRequests []*taxi_requests.Request   `json:"inactive_requests"`
 }
 
 func (s *Server) adminRequestGet(w http.ResponseWriter, r *http.Request) {
