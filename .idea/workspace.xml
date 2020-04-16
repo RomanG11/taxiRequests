@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a9dbad4-d424-446c-8c4b-08a54a553329" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/taxiRequests.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cfg/.env.dev" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/server/adminRequestGet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/server/requestGet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/rand/rand.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taxiRequests/activeReq.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taxiRequests/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taxiRequests/inactiveReq.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taxiRequests/request.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1acgi65IoAOHFxc1htoKhby3Yr6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\romuc\go\src\taxiRequests\internal" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\romuc\go\src\taxiRequests" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build taxiRequests" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="taxiRequests" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <envs>
+        <env name="HTTP_PORT" value="8080" />
+      </envs>
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="taxiRequests" />
+      <directory value="awesomeProject" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build taxiRequests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="432" y="166" key="#Go_Modules_(vgo)" timestamp="1587040624661">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="166" key="#Go_Modules_(vgo)/0.0.1680.1010@0.0.1680.1010" timestamp="1587040624661" />
+    <state x="294" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587052372606">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="294" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587052372606" />
+    <state x="603" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587040965951">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="603" y="315" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1587040965951" />
+    <state x="478" y="103" key="CommitChangelistDialog2" timestamp="1587053731625">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="478" y="103" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587053731625" />
+    <state x="513" y="304" key="EditFileWatcherDialog" timestamp="1587052826557">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="513" y="304" key="EditFileWatcherDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587052826557" />
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587052831497">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587052831497" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1587052831497">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587052831497" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1587052831497">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587052831497" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1587052831497">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587052831497" />
+    <state x="343" y="150" key="SettingsEditor" timestamp="1587052827435">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="343" y="150" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1587052827435" />
+  </component>
+</project>
